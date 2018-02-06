@@ -3,14 +3,14 @@
 #PBS -N PP_RNAseq_STAR_align_T502
 #PBS -k o
 #PBS -l nodes=1:ppn=16,vmem=80gb
-#PBS -l walltime=4:00:00
+#PBS -l walltime=8:00:00
 #PBS -m abe
 
 module load star
 
 fileDir=/N/dc2/scratch/rtraborn/T502_fastqs/PP_RNAseq
 ####### Before running the script, please enter path to desired output directory, below ####
-WD=/N/u/<yourUserId>/Carbonate/T502_RNAseq/
+WD=/N/dc2/scratch/gwigley/T502_RNAseq
 fqDir=fastqs
 genomedir=${WD}/fasta
 genomeFasta=pacificus_Hybrid2.fa
