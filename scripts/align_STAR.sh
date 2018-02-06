@@ -10,7 +10,11 @@ module load star
 
 fileDir=/N/dc2/scratch/rtraborn/T502_fastqs/PP_RNAseq
 ####### Before running the script, please enter path to desired output directory, below ####
+<<<<<<< HEAD
 WD=/N/dc2/scratch/gwigley/T502_RNAseq
+=======
+WD=/N/dc2/scratch/rtraborn/T502_RNAseq/
+>>>>>>> eae6dbeb416cc3c596d8a9f7c5837efada0a2e99
 fqDir=fastqs
 genomedir=${WD}/fasta
 genomeFasta=pacificus_Hybrid2.fa
@@ -55,7 +59,7 @@ ln -s ${fileDir}/GSF1659-NHR40-4_S8_R2_001.fastq.gz NHR40-4.R2.fastq.gz
 ln -s ${fileDir}/GSF1659-Seud1-1_S1_R1_001.fastq.gz Seud1-1.R1.fastq.gz
 ln -s ${fileDir}/GSF1659-Seud1-1_S1_R2_001.fastq.gz Seud1-1.R2.fastq.gz
 ln -s ${fileDir}/GSF1659-Seud1-2_S2_R1_001.fastq.gz Seud1-2.R1.fastq.gz
-ln -s ${fileDir}/GSF1659-Seud1-2_S2_R2_001.fastq.gz Sedu1-2.R2.fastq.gz
+ln -s ${fileDir}/GSF1659-Seud1-2_S2_R2_001.fastq.gz Seud1-2.R2.fastq.gz
 ln -s ${fileDir}/GSF1659-Seud1-3_S3_R1_001.fastq.gz Seud1-3.R1.fastq.gz
 ln -s ${fileDir}/GSF1659-Seud1-3_S3_R2_001.fastq.gz Seud1-3.R2.fastq.gz
 ln -s ${fileDir}/GSF1659-Seud1-4_S4_R1_001.fastq.gz Seud1-4.R1.fastq.gz
