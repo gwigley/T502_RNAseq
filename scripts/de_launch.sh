@@ -8,6 +8,7 @@
 
 module load r
 
+
 #<please enter the full path to scripts/>
 WD=/N/dc2/scratch/gwigley/T502_RNAseq/scripts
 

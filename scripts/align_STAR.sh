@@ -10,11 +10,9 @@ module load star
 
 fileDir=/N/dc2/scratch/rtraborn/T502_fastqs/PP_RNAseq
 ####### Before running the script, please enter path to desired output directory, below ####
-<<<<<<< HEAD
+
 WD=/N/dc2/scratch/gwigley/T502_RNAseq
-=======
-WD=/N/dc2/scratch/rtraborn/T502_RNAseq/
->>>>>>> eae6dbeb416cc3c596d8a9f7c5837efada0a2e99
+
 fqDir=fastqs
 genomedir=${WD}/fasta
 genomeFasta=pacificus_Hybrid2.fa
