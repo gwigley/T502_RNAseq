@@ -8,10 +8,16 @@
 
 module load star
 
+###We will be taking both reads pairs from all eight (8) isolates and align them to the Pristionchus pacificus genome###
+###This script automatically downloads the assembly and annotation###
+###The aligner software we will use is called STAR (Dobin et al., 2013), and was chosen because it is fast, accurate and highly customizable###
+
 fileDir=/N/dc2/scratch/rtraborn/T502_fastqs/PP_RNAseq
 ####### Before running the script, please enter path to desired output directory, below ####
 
 WD=/N/dc2/scratch/gwigley/T502_RNAseq
+##change this to your working directory###
+
 
 fqDir=fastqs
 genomedir=${WD}/fasta
