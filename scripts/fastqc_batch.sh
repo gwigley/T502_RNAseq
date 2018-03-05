@@ -1,3 +1,7 @@
+#####Before analysing sequences to draw biological conclusions you should always perform some###
+#####simple quality control checks to ensure that the raw data looks good and there are no problems###
+#####or biases in your data which may affect how you can usefully use it.###
+
 #!/bin/bash
 
 #PBS -N PP_RNAseq_fastqc_batch_T502
